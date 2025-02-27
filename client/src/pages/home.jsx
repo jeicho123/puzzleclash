@@ -161,7 +161,7 @@ function Home() {
 
   const fetchPuzzle = async () => {
     try {
-      const response = await fetch("https://lichess.org/api/puzzle/KBt63");
+      const response = await fetch("https://lichess.org/api/puzzle/next");
       const data = await response.json();
 
       const { pgn } = data.game;
