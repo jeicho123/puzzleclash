@@ -18,7 +18,7 @@ module.exports = (io) => {
           socket.userId = decoded.userId;
     
           socket.on("request_leaderboard", async () => {
-            const leaderboard = await User.find().sort({ score: -1 });
+            const leaderboard = await User.find().select('username score -_id').sort({ score: -1 });
             socket.emit("leaderboard_update", leaderboard);
           });
 
@@ -54,7 +54,7 @@ module.exports = (io) => {
     
             socket.emit("puzzlehistory_update", user.puzzleHistory);
             
-            const updatedLeaderboard = await User.find().sort({ score: -1 });
+            const updatedLeaderboard = await User.find().select('username score -_id').sort({ score: -1 });
             io.emit("leaderboard_update", updatedLeaderboard);
           });
     
