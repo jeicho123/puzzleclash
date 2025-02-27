@@ -43,7 +43,7 @@ module.exports = (io) => {
               todayEntry.puzzlesSolved += 1;
             } else {
               user.puzzleHistory.push({
-                date: today,
+                date: new Date(),
                 puzzlesSolved: 1
               });
             }
