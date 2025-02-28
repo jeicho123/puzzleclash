@@ -6,7 +6,7 @@ A real-time chess puzzle solving app that includes a live leaderboard and daily 
 https://github.com/user-attachments/assets/93b0f3e2-870b-42e5-bffb-e5a2eba36acc
   
 https://puzzleclash.onrender.com  
-(deployed on Render, may take a few seconds to cold start backend server from auto-sleep)
+(deployed on Render, may take a few seconds upon initial load to cold start backend server from auto-sleep)
 ## Features
 
 - Interactive Chessboard - Seamless puzzle solving experience with new random puzzles
