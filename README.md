@@ -68,8 +68,7 @@ https://puzzleclash.onrender.com
 
 1. Start the server:
    ```bash
-   cd server
-   npm start
+   npm run start
    ```
 
 2. Start the client:
