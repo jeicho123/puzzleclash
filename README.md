@@ -1,6 +1,6 @@
 # PuzzleClash
 
-A real-time chess puzzle solving app that includes a live leaderboard and daily puzzle tracking.
+A real-time multiplayer chess puzzle solving app that includes a live leaderboard and daily puzzle tracking.
 
 ## Demo
 https://github.com/user-attachments/assets/93b0f3e2-870b-42e5-bffb-e5a2eba36acc
