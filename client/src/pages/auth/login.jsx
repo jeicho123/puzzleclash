@@ -62,7 +62,7 @@ export default function LoginPage() {
     }
 
   return (
-    <main className="min-h-screen flex items-center justify-center">
+    <main className="flex items-center justify-center">
       <div className="w-[400px]">
         <Logo />
         <Card className="w-full">
